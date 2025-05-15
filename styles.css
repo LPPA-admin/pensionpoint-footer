@@ -1,0 +1,133 @@
+footer {
+      display: none;
+    }
+
+    .footerstyle {
+      background:#183850;
+      color:#f0f2f2;
+      padding: 20px 30px 10px 30px;
+    }
+
+    .footerstyle a {
+      color:#f0f2f2;
+      text-decoration: none;
+      font-size:18px;
+    }
+
+    .footerstyle li {
+      margin-bottom:1.25rem;   
+    }
+
+    .footerstyle a:hover {
+      color:#82cff4;
+      transition: color 0.5s ease, transform 0.5s ease; 
+      text-decoration: none;
+    }
+
+    .footerstyle h4 {
+      color:#82cff4;
+    }
+
+    .left-align {
+      text-align: left;
+    }
+
+    .no-bullets {
+      list-style-type: none; /* Remove bullets */
+    }
+
+    .footerswoosh {
+      width:100%;
+    }
+
+    .footerbrand {
+      background:#183850;
+      text-align:center;
+      color:#f0f2f2;
+      padding:20px;
+      display:flex;
+      justify-content: space-between;
+    }
+
+    .footerbrand p {
+      padding-right:50px;
+    }
+
+    .footerbrand img {
+      max-width:100px;
+    }
+
+    #footerlppa {
+      padding-top:25px;
+    }
+
+    @media (max-width: 768px) {
+      .desktopfooter {
+        display: none;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .mobilefooter {
+        display: none;
+        background: #183850;
+      }
+    }
+
+    .accordionfooter {
+      background-color: #183850;
+      color: #f0f2f2;
+      cursor: pointer;
+      padding: 18px;
+      border-left: 0px;
+      border-right: 0px;
+      border-top: 0px;
+      border-bottom: 0px;
+      width: 100%;
+      display: flex;
+      text-align: left;
+      outline: none;
+      font-size: 16px;
+      transition: 0.4s;
+      justify-content: space-between;
+      position: relative; /* Add this to position the line */
+    }
+
+    .accordionfooter h4 {
+      color:#f0f2f2;
+    }
+
+    .accordionfooter::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 5%;
+      min-width: 90%;
+      height: 2px;
+      background-color: #82cff490;
+    }
+
+.accordionfooter.active {
+       background-color: #183850;
+       border-radius:0px;
+    }
+
+
+    .accordionfooter:hover {
+      background-color: #183850;
+      border-radius:0px;
+    }
+
+    .panelfooter {
+      padding: 0 18px;
+      display: none;
+      background-color: #183850;
+      color: #f0f2f2;
+      overflow: hidden;
+      text-align: left;
+    }
+
+    .panelfooter a {
+      text-decoration: none;
+      color: #f0f2f2;
+    }
